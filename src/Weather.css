@@ -30,17 +30,24 @@
   font-size: 30px;
 }
 
+#typeWeather {
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding-left: 245px;
+}
+
 #description {
   padding-left: 120px;
   margin-bottom: 40px;
   position: relative;
-  top: -110px;
-  right: -30px;
+  top: -160px;
+  right: -20px;
 }
 
 .Weather img {
   height: 64px;
-  width: 70px;
+  padding-left: 250px;
   margin-right: 10px;
   float: left;
   margin: 0 auto;
@@ -50,11 +57,20 @@
 .Weather .temperature {
   color: black;
   font-size: 50px;
+  padding-left: 250px;
   line-height: 64px;
 }
 
 .Weather .unit {
   font-size: 16px;
   position: relative;
-  top: -25px;
+  top: -55px;
+  padding-left: 310px;
+  font-weight: bold;
+}
+
+#search-bar {
+  margin: auto 0;
+  display: block;
+  padding-left: 60px;
 }

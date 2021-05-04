@@ -7,7 +7,7 @@ export default function Weather() {
       <h1>New York</h1>
       <ul>
         <li id="day">Wednesday</li>
-        <li>Sunny</li>
+        <li id="typeWeather">Sunny</li>
       </ul>
 
       <div className="row mt-3">
@@ -33,7 +33,7 @@ export default function Weather() {
         </div>
       </div>
 
-      <form>
+      <form id="search-bar">
         <div className="row">
           <div className="col-6">
             <input
