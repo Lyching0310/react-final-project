@@ -1,11 +1,11 @@
 .App {
-  background-color: #ece3da;
-  max-width: 100%;
+  border: 2px ridge #c79cb0;
+  border-radius: 9px;
+  padding: 20px;
+  max-width: 680px;
+  color: #323946;
   margin: 0 auto;
-  font-family: "Palanquin", sans-serif;
-  background: #ece3da;
-  text-size-adjust: 100%;
-}
-
-.container {
+  margin-top: 40px;
+  background: linear-gradient(#e3c1c2, #d0acae);
+  opacity: 0.95;
 }
