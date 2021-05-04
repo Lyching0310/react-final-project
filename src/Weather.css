@@ -1,8 +1,11 @@
 .Weather {
-  max-width: 100%;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin: 0 auto;
+  border: 2px ridge #c79cb0;
+  border-radius: 9px;
+  padding: 20px;
+  color: #323946;
+  background: linear-gradient(#e3c1c2, #d0acae);
+  opacity: 0.95;
+  margin: 20px auto;
   font-family: "Palanquin", sans-serif;
   text-size-adjust: 100%;
 }

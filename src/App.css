@@ -1,11 +1,9 @@
 .App {
-  border: 2px ridge #c79cb0;
-  border-radius: 9px;
-  padding: 20px;
   max-width: 680px;
-  color: #323946;
   margin: 0 auto;
-  margin-top: 40px;
-  background: linear-gradient(#e3c1c2, #d0acae);
-  opacity: 0.95;
+}
+
+.App footer {
+  font-size: 12px;
+  margin: 5px 0;
 }
