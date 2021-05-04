@@ -22,7 +22,7 @@
 }
 
 .Weather li {
-  font-size: 20px;
+  font-size: 17px;
   list-style: none;
 }
 
@@ -34,13 +34,17 @@
   padding-left: 120px;
   margin-bottom: 40px;
   position: relative;
-  top: -80px;
+  top: -110px;
+  right: -30px;
 }
 
 .Weather img {
   height: 64px;
+  width: 70px;
   margin-right: 10px;
   float: left;
+  margin: 0 auto;
+  display: block;
 }
 
 .Weather .temperature {
