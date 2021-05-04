@@ -6,6 +6,7 @@
   background: linear-gradient(#e3c1c2, #d0acae);
   opacity: 0.95;
   margin: 20px auto;
+  margin-top: 50px;
   font-family: "Palanquin", sans-serif;
   text-size-adjust: 100%;
 }
@@ -34,4 +35,22 @@
   margin-bottom: 40px;
   position: relative;
   top: -80px;
+}
+
+.Weather img {
+  height: 64px;
+  margin-right: 10px;
+  float: left;
+}
+
+.Weather .temperature {
+  color: black;
+  font-size: 50px;
+  line-height: 64px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  top: -25px;
 }
