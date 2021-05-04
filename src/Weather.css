@@ -1,0 +1,86 @@
+.weather-container {
+  border: 2px ridge #0d2c37;
+  border-radius: 9px;
+  padding: 20px 20px 0 20px;
+  max-width: 580px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: linear-gradient(#1c4954, #0d2c37);
+}
+
+.city-date h1 {
+  font-size: 60px;
+}
+
+.city-date h2 {
+  font-size: 37px;
+}
+
+.wind-condition-time {
+  position: relative;
+  top: -120px;
+  right: -400px;
+}
+.wind-condition-time h3 {
+  font-size: 42px;
+}
+
+.condition {
+  font-size: 17px;
+}
+
+#weatherType,
+#temperature {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -90px;
+}
+#weatherType {
+  font-size: 30px;
+  margin-bottom: 82px;
+  text-transform: capitalize;
+}
+#temperature {
+  font-size: 55px;
+  margin-bottom: 90px;
+}
+
+.degrees {
+  position: relative;
+  bottom: 20px;
+  font-size: 75px;
+}
+
+#celsius {
+  text-decoration: none;
+  color: white;
+}
+
+.search-section {
+  margin-bottom: 20px;
+  margin-top: -85px;
+  display: block;
+  text-align: center;
+}
+
+#discover-button {
+  background: #9dd9f3;
+  border: 2px solid #0d2c37;
+  color: #0b0e28;
+  transition: all 200ms ease-in-out;
+}
+
+#now-button {
+  background: #c8ed8f;
+  border: 2px solid #0d2c37;
+  color: #0b0e28;
+  transition: all 200ms ease-in-out;
+}
+
+#discover-button:hover,
+#now-button:hover {
+  background: white;
+  color: #0b0e28;
+}
