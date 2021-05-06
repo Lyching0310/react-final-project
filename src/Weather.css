@@ -12,7 +12,7 @@
 }
 
 .Weather h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .Weather ul {
@@ -28,26 +28,32 @@
 
 #day {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 #typeWeather {
   font-size: 30px;
   margin: 0 auto;
   margin-bottom: 0px;
-  padding-left: 245px;
+  padding-left: 165px;
 }
 
 #description {
   padding-left: 120px;
   margin-bottom: 40px;
   position: relative;
-  top: -160px;
-  right: -20px;
+  top: -190px;
+  font-size: 18px;
+  right: -10px;
+}
+
+#time {
+  font-size: 38px;
 }
 
 .Weather img {
   height: 64px;
-  padding-left: 250px;
+  padding-left: 180px;
   margin-right: 10px;
   float: left;
   margin: 0 auto;
@@ -57,7 +63,7 @@
 .Weather .temperature {
   color: black;
   font-size: 50px;
-  padding-left: 250px;
+  padding-left: 180px;
   line-height: 64px;
 }
 
@@ -65,12 +71,13 @@
   font-size: 18px;
   position: relative;
   top: -55px;
-  padding-left: 310px;
+  padding-left: 240px;
   font-weight: bold;
   color: black;
 }
 
 #search-bar {
+  margin-top: -30px;
   margin: auto 0;
   display: block;
   padding-left: 60px;
