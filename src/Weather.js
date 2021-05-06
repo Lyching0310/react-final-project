@@ -38,10 +38,14 @@ export default function Weather(props) {
                 className="float-left"
               />
               <div className="float-left">
-                <span className="temperature">
+                <span className="temperatureNumeric">
                   {Math.round(weatherData.temperature)}
                 </span>{" "}
-                <span className="unit">°C</span>
+                <p className="units">
+                  <span className="celsius">°C</span>
+                  {""} | {""}
+                  <span className="fahrenheit">°F</span>
+                </p>
               </div>
             </div>
           </div>

@@ -60,19 +60,18 @@
   display: block;
 }
 
-.Weather .temperature {
+.Weather .temperatureNumeric {
   color: black;
   font-size: 50px;
   padding-left: 180px;
   line-height: 64px;
 }
 
-.Weather .unit {
-  font-size: 18px;
+.Weather .units {
   position: relative;
-  top: -55px;
-  padding-left: 240px;
-  font-weight: bold;
+  bottom: 60px;
+  left: 220px;
+  font-size: 22px;
   color: black;
 }
 
