@@ -19,8 +19,8 @@ export default function WeatherData(props) {
         <div className="col-6">
           <div className="clearfix">
             <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="Sunny"
+              src={props.data.iconUrl}
+              alt={props.data.description}
               className="float-left"
             />
             <div className="float-left">
