@@ -1,0 +1,23 @@
+.WeatherTemperature {
+  margin-top: 0px;
+  padding-left: 190px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#temperatureNumeric {
+  color: black;
+  font-size: 60px;
+}
+
+#celsius {
+  position: relative;
+  bottom: 20px;
+  font-size: 90px;
+}
+
+#fahrenheit {
+  position: relative;
+  bottom: 20px;
+  font-size: 90px;
+}
