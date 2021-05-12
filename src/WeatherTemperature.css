@@ -1,6 +1,5 @@
 .WeatherTemperature {
   margin-top: 0px;
-  padding-left: 190px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -8,16 +7,21 @@
 #temperatureNumeric {
   color: black;
   font-size: 60px;
+  padding-left: 200px;
 }
 
-#celsius {
+.celsius {
   position: relative;
-  bottom: 20px;
-  font-size: 90px;
+  bottom: 70px;
+  left: 270px;
+  font-size: 22px;
+  color: black;
 }
 
-#fahrenheit {
+.fahrenheit {
   position: relative;
-  bottom: 20px;
-  font-size: 90px;
+  bottom: 70px;
+  left: 270px;
+  font-size: 22px;
+  color: black;
 }

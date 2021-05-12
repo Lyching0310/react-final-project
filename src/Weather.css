@@ -51,6 +51,14 @@
   font-size: 38px;
 }
 
+.Weather .units {
+  position: relative;
+  bottom: 60px;
+  left: 240px;
+  font-size: 22px;
+  color: black;
+}
+
 #search-bar {
   margin-top: 0px;
   margin: auto 0;
