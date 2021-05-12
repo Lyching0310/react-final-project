@@ -34,31 +34,21 @@
 #typeWeather {
   font-size: 28px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 
 #description {
   padding-left: 120px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   position: relative;
-  top: -190px;
-  font-size: 18px;
-  right: -10px;
+  top: -200px;
+  font-size: 16px;
+  left: 10px;
 }
 
 #time {
   font-size: 38px;
-}
-
-.Weather img {
-  height: 50px;
-  width: 50px;
-  padding-left: 180px;
-  margin-right: 10px;
-  float: left;
-  margin: 0 auto;
-  display: block;
 }
 
 .Weather .temperatureNumeric {
