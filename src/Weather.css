@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/clouds.jpeg");
+  background-image: url("img/clouds.png");
 }
 
 .Weather {
@@ -8,7 +8,7 @@ body {
   padding: 20px;
   color: white;
   background-image: linear-gradient(to bottom, #71516e 0.5%, #2e2239 100%);
-  margin: 20px auto;
+  margin: 30px auto;
   margin-top: 50px;
   font-family: "Palanquin", sans-serif;
   text-size-adjust: 100%;
