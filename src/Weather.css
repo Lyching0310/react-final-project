@@ -1,10 +1,13 @@
+body {
+  background-image: url("img/clouds.jpeg");
+}
+
 .Weather {
-  border: 2px ridge #c79cb0;
-  border-radius: 9px;
+  border: 2px ridge #71516e;
+  border-radius: 20px;
   padding: 20px;
-  color: #323946;
-  background: linear-gradient(#e3c1c2, #d0acae);
-  opacity: 0.95;
+  color: white;
+  background-image: linear-gradient(to bottom, #71516e 0.5%, #2e2239 100%);
   margin: 20px auto;
   margin-top: 50px;
   font-family: "Palanquin", sans-serif;
@@ -51,16 +54,9 @@
   font-size: 38px;
 }
 
-.Weather .units {
-  position: relative;
-  bottom: 60px;
-  left: 240px;
-  font-size: 22px;
-  color: black;
-}
-
 #search-bar {
   margin-top: 0px;
+  padding-top: 0px;
   margin: auto 0;
   display: block;
   padding-left: 60px;

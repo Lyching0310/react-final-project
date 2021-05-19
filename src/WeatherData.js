@@ -26,7 +26,9 @@ export default function WeatherData(props) {
             </div>
 
             <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature} />
+              <p className="units">
+                <WeatherTemperature celsius={props.data.temperature} />
+              </p>
             </div>
           </div>
         </div>
