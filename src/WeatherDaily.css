@@ -1,0 +1,12 @@
+.WeatherDaily {
+  text-align: center;
+}
+
+.WeatherForecast-day {
+  padding-top: 28px;
+}
+
+.WeatherTemp-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}

@@ -18,11 +18,11 @@ export default function WeatherData(props) {
         </li>
       </ul>
 
-      <div className="row mt-3">
+      <div className="row mt-3" id="middle-search">
         <div className="col-6">
           <div className="clearfix">
             <div className="float-left" id="icon">
-              <WeatherIcon code={props.data.icon} />
+              <WeatherIcon code={props.data.icon} size={100} />
             </div>
 
             <div className="float-left">
