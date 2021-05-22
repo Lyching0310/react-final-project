@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/Lyching0310/React-Weather-App"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             id="gitLink"
           >
             Open-source code
@@ -21,7 +21,7 @@ export default function App() {
           <a
             href="https://alyssareactweatherapp.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             id="Netlify"
           >
             Hosted on Netlify
