@@ -4,6 +4,7 @@ import WeatherData from "./WeatherData";
 import axios from "axios";
 import "./Weather.css";
 import WeatherDaily from "./WeatherDaily";
+import Loader from "react-loader-spinner";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -71,7 +72,14 @@ export default function Weather(props) {
   } else {
     search();
 
-    return "Loading...";
-    //ADD LOADING SPINNER
+    return (
+      <Loader
+        type="ThreeDots"
+        color="#e1d2d8"
+        height={100}
+        width={100}
+        timeout={3000}
+      />
+    );
   }
 }
