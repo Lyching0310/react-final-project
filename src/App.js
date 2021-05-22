@@ -10,16 +10,16 @@ export default function App() {
         <footer>
           Created by Alyssa Reyes {""}
           <a
-            href="https://github.com/Lyching0310/React-Weather-App"
+            href="https://github.com/Lyching0310/react-final-project"
             target="_blank"
             rel="noopener noreferrer"
             id="gitLink"
           >
-            Open-source code
+            Open-source code on GitHub
           </a>
           {""} and {""}
           <a
-            href="https://alyssareactweatherapp.netlify.app/"
+            href="https://final-project-alyssareyes.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             id="Netlify"

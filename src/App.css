@@ -8,3 +8,15 @@
   margin: 5px 0;
   color: #2e2239;
 }
+
+#gitLink,
+#Netlify {
+  text-decoration: none;
+  color: #0899d3;
+  transition: all 200ms ease-in-out;
+}
+
+#gitLink:hover,
+#Netlify:hover {
+  color: #a18a94;
+}
