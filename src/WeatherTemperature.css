@@ -18,7 +18,9 @@
   bottom: 80px;
   left: 65px;
   font-size: 22px;
+  text-decoration: none;
   color: white;
+  transition: all 200ms ease-in-out;
 }
 
 .fahrenheit {
@@ -27,4 +29,12 @@
   left: 65px;
   font-size: 22px;
   color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.celsius:hover,
+.fahrenheit:hover {
+  color: #2e2239;
+  text-decoration: none;
+  font-weight: bold;
 }
