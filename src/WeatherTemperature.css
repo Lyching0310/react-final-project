@@ -15,8 +15,8 @@
 
 .celsius {
   position: relative;
-  bottom: 80px;
-  left: 65px;
+  bottom: 76px;
+  left: 70px;
   font-size: 22px;
   text-decoration: none;
   color: white;
@@ -25,8 +25,8 @@
 
 .fahrenheit {
   position: relative;
-  bottom: 80px;
-  left: 65px;
+  bottom: 76px;
+  left: 70px;
   font-size: 22px;
   color: white;
   transition: all 200ms ease-in-out;
